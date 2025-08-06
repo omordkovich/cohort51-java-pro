@@ -1,12 +1,13 @@
 package lesson_01.task_02;
 
-public class Task3 {
+public class Task2 {
 
     private static int counter = 0;
 
     public static synchronized void incrementCounter(){
         counter++;
     }
+
     public static void main(String[] args) {
 
         MyThread myThread1 = new MyThread();

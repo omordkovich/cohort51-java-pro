@@ -1,6 +1,6 @@
 package lesson_01.task_03;
 
-public class Task2 {
+public class Task3 {
 
     static int counter = 0;
 

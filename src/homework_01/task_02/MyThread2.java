@@ -1,8 +1,13 @@
 package homework_01.task_02;
 
 
-public class MyThread1 extends Thread{
+public class MyThread2 extends Thread{
+    private long counter;
+
     public void run() {
-       Task2.countFilteredArray(Task2.numbers,0,Task2.numbers.length/2);
+      counter = Task2.countFilteredArray(Task2.numbers,Task2.numbers.length/2,Task2.numbers.length);
+    }
+    public long getCounter(){
+        return counter;
     }
 }

@@ -1,7 +1,7 @@
-package lesson_02.homework_02.staff.leads;
+package homework_02.staff.leads;
 
-import lesson_02.homework_02.staff.specialists.art.CharacterArtist;
-import lesson_02.homework_02.staff.specialists.art.LevelArtist;
+import homework_02.staff.specialists.art.CharacterArtist;
+import homework_02.staff.specialists.art.LevelArtist;
 import org.springframework.beans.factory.annotation.Autowired;
 
 public class LeadArtist {

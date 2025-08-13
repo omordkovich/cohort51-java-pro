@@ -1,4 +1,4 @@
-package lesson_02.homework_02.staff;
+package homework_02.staff;
 
 public class GameDesigner {
     public void work(){

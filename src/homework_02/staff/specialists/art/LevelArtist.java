@@ -1,4 +1,4 @@
-package lesson_02.homework_02.staff.specialists.art;
+package homework_02.staff.specialists.art;
 
 public class LevelArtist {
     public void work(){

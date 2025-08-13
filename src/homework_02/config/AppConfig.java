@@ -1,13 +1,13 @@
-package lesson_02.homework_02.config;
+package homework_02.config;
 
-import lesson_02.homework_02.staff.GameDesigner;
-import lesson_02.homework_02.staff.leads.LeadArtist;
-import lesson_02.homework_02.staff.leads.LeadProgrammer;
-import lesson_02.homework_02.staff.leads.Producer;
-import lesson_02.homework_02.staff.specialists.art.CharacterArtist;
-import lesson_02.homework_02.staff.specialists.art.LevelArtist;
-import lesson_02.homework_02.staff.specialists.programming.GameplayProgrammer;
-import lesson_02.homework_02.staff.specialists.programming.UiProgrammer;
+import homework_02.staff.GameDesigner;
+import homework_02.staff.leads.LeadArtist;
+import homework_02.staff.leads.LeadProgrammer;
+import homework_02.staff.leads.Producer;
+import homework_02.staff.specialists.art.CharacterArtist;
+import homework_02.staff.specialists.art.LevelArtist;
+import homework_02.staff.specialists.programming.GameplayProgrammer;
+import homework_02.staff.specialists.programming.UiProgrammer;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 

@@ -1,4 +1,4 @@
-package lesson_02.homework_02.staff.specialists.programming;
+package homework_02.staff.specialists.programming;
 
 public class UiProgrammer {
     public void work(){

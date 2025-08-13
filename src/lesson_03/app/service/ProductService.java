@@ -1,7 +1,9 @@
-package lesson_03.app.repository;
+package lesson_03.app.service;
 
 import lesson_03.app.domain.Product;
 
-public interface ProductRepository {
+public interface ProductService {
+
     Product getById(Long id);
+
 }

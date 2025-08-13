@@ -1,7 +1,7 @@
-package lesson_02.homework_02.staff.leads;
+package homework_02.staff.leads;
 
-import lesson_02.homework_02.staff.specialists.programming.GameplayProgrammer;
-import lesson_02.homework_02.staff.specialists.programming.UiProgrammer;
+import homework_02.staff.specialists.programming.GameplayProgrammer;
+import homework_02.staff.specialists.programming.UiProgrammer;
 import org.springframework.beans.factory.annotation.Autowired;
 
 public class LeadProgrammer {

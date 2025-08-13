@@ -1,11 +1,13 @@
 package lesson_03.app.repository;
 
 import lesson_03.app.domain.Product;
+import org.springframework.stereotype.Repository;
 
 import java.math.BigDecimal;
 import java.util.HashMap;
 import java.util.Map;
 
+@Repository
 public class ProductRepositoryMap implements ProductRepository {
     private Map<Long, Product> database = new HashMap<>();
 

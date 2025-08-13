@@ -1,4 +1,5 @@
 package consultation_02.interfaces;
 
-public interface Recycleble {
+public interface Recyclable {
+    void recycle();
 }
